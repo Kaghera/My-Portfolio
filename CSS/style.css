@@ -1,0 +1,39 @@
+
+/* ============= Footer =============== */
+.page-footer {
+  background-color: #f7c61d;
+  position: fixed;
+  height: 66px;
+  width: 100%;
+  bottom: 0;  
+}
+
+.page-footer .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.page-footer>.wrapper>* {
+  width: 40%;
+}
+.socials {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 50%;
+  color: #f7c61d;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 10px;
+}
